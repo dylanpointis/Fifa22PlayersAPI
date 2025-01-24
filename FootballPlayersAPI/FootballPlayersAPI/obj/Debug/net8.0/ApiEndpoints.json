@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "getAllPlayers",
+    "RelativePath": "api/Players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "GetPlayer",
+    "RelativePath": "api/Players/{playerID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "FilterByClub",
+    "RelativePath": "api/Players/club/{club}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "club",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "filterByName",
+    "RelativePath": "api/Players/name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "FilterByNationality",
+    "RelativePath": "api/Players/nation/{nation}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nation",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "FilterByOverall",
+    "RelativePath": "api/Players/overall/{overall}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "overall",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballPlayersAPI.Controllers.PlayersController",
+    "Method": "getPlayersByPage",
+    "RelativePath": "api/Players/page/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

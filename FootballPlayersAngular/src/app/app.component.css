@@ -1,0 +1,14 @@
+.inputPage{
+    background-color: transparent; color: white; border: 0; width: 80%; font-size: xx-large; text-align: center;
+}
+
+.inputPage:hover{
+    border-bottom: solid white 2px ;
+}
+
+.inputPage:focus {
+    outline: none; /* Elimina el contorno predeterminado */
+    box-shadow: none; /* Elimina la sombra del borde predeterminado */
+    border: 0;
+    border-bottom: solid white 2px;
+}

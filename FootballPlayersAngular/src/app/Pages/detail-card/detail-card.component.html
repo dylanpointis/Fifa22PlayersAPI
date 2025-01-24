@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="detail-card.component.css">
+<mat-card style="width: 100%;">
+  <div *ngIf="currentPlayer" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <mat-card-header class="header"><h1>{{ currentPlayer.longName }}</h1></mat-card-header>
+    <div style="display: flex; flex-direction: row; width: 100%; height: 60%; justify-content: space-between;">
+      <img [src]="currentPlayer.playerFaceUrl" style="height: 200px;" (error)="defaultImage($event)">
+      <div class="info"> 
+          <p>Position: {{ currentPlayer.playerPositions }}</p>
+          <p>Overall: {{ currentPlayer.overall }}</p>
+          <p>Club: {{ currentPlayer.clubName }}</p>
+          <p>Nationality: {{ currentPlayer.nationalityName }}</p>
+      </div>
+      <div class="info">
+        <p>Pace: {{currentPlayer.pace}}</p>
+        <p>Shooting: {{currentPlayer.shooting}}</p>
+        <p>Passing: {{currentPlayer.passing}}</p>
+        <p>Dribbling: {{currentPlayer.dribbling}}</p>
+        <p>Defending: {{currentPlayer.defending}}</p>
+        <p>Physic: {{currentPlayer.physic}}</p>
+      </div>
+      <div class="info">
+        <p>Age: {{ currentPlayer.age }}</p>
+        <p>Weight: {{ currentPlayer.weightKg }} kg</p>
+        <p>Height: {{ currentPlayer.heightCm }} cm</p>
+        <p>Preferred Foot: {{ currentPlayer.preferredFoot }}</p>
+        <p>Weak Foot: {{ currentPlayer.weakFoot }}</p>
+        <p>Skill Moves: {{ currentPlayer.skillMoves }}</p>
+      </div>
+    </div>
+  </div>
+
+</mat-card>

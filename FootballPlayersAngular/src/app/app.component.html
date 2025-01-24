@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="app.component.css">
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+    <mat-card class="searchBar" style="width: 30%; padding: 10px; margin: 15px; display: flex; flex-direction: row;">
+        <button mat-button (click)="returnHome()">
+            <mat-icon fontIcon="home" ></mat-icon>
+        </button>
+        <input matInput [(ngModel)]="inputSearchBar" style="width: 55%; height: 30px; font-size: 20px;">
+        <mat-select [(value)]="selectedOption" style="width: 30%; padding: 10px;">
+            <mat-option value="name">Name</mat-option>
+            <mat-option value="overall">Overall</mat-option>
+            <mat-option value="nation">Nation</mat-option>
+            <mat-option value="club">Club</mat-option>
+        </mat-select>
+        <button mat-flat-button style="width: 15%;" (click)="searchPlayer(selectedOption)">Search</button>
+    </mat-card>
+
+    <router-outlet></router-outlet>
+
+    <div class="grilla" style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; width: 70%;">
+        <div *ngFor="let p of playersList" >
+            <app-player-card [currentPlayer]="p" (click)="loadComponent(p)"></app-player-card>
+        </div>
+    </div>
+
+    <footer style="width: 100%; height: 200px; background-color: black; display: flex; justify-content: center; align-items: center;">
+        <li>
+            <button mat-button style="width: 20%; color: white; font-size: xx-large;" (click)="pageDown()"> << </button>
+            <button mat-button style="width: 20%; color: white; font-size: xx-large;" (click)="setPage()">
+                <input class="inputPage" matInput [(ngModel)]="inputPageNumber" placeholder="{{pageNumber}}" (keyup.enter)="setPage()">
+            </button>
+            <button mat-button style="width: 20%; color: white; font-size: xx-large;" (click)="pageUp()"> >> </button>
+        </li>
+    </footer>
+</div>

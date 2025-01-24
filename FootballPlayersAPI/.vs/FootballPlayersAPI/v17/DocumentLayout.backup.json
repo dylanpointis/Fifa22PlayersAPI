@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80279A74-BE10-4E13-BEF3-C7A8A882A5D3}|FootballPlayersAPI\\FootballPlayersAPI.csproj|c:\\users\\usuario\\source\\repos\\asp.net\\footballplayersapiproject\\footballplayersapi\\footballplayersapi\\data\\dbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80279A74-BE10-4E13-BEF3-C7A8A882A5D3}|FootballPlayersAPI\\FootballPlayersAPI.csproj|solutionrelative:footballplayersapi\\data\\dbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80279A74-BE10-4E13-BEF3-C7A8A882A5D3}|FootballPlayersAPI\\FootballPlayersAPI.csproj|c:\\users\\usuario\\source\\repos\\asp.net\\footballplayersapiproject\\footballplayersapi\\footballplayersapi\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80279A74-BE10-4E13-BEF3-C7A8A882A5D3}|FootballPlayersAPI\\FootballPlayersAPI.csproj|solutionrelative:footballplayersapi\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80279A74-BE10-4E13-BEF3-C7A8A882A5D3}|FootballPlayersAPI\\FootballPlayersAPI.csproj|c:\\users\\usuario\\source\\repos\\asp.net\\footballplayersapiproject\\footballplayersapi\\footballplayersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80279A74-BE10-4E13-BEF3-C7A8A882A5D3}|FootballPlayersAPI\\FootballPlayersAPI.csproj|solutionrelative:footballplayersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBData.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\FootballPlayersAPI\\Data\\DBData.cs",
+              "RelativeDocumentMoniker": "FootballPlayersAPI\\Data\\DBData.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\FootballPlayersAPI\\Data\\DBData.cs",
+              "RelativeToolTip": "FootballPlayersAPI\\Data\\DBData.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAD4v2EAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T15:52:24.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayersController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\FootballPlayersAPI\\Controllers\\PlayersController.cs",
+              "RelativeDocumentMoniker": "FootballPlayersAPI\\Controllers\\PlayersController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\FootballPlayersAPI\\Controllers\\PlayersController.cs",
+              "RelativeToolTip": "FootballPlayersAPI\\Controllers\\PlayersController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:16:28.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\FootballPlayersAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FootballPlayersAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ASP.NET\\FootballPlayersAPIProject\\FootballPlayersAPI\\FootballPlayersAPI\\Program.cs",
+              "RelativeToolTip": "FootballPlayersAPI\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwBgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T14:27:36.091Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
