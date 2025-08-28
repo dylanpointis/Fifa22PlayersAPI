@@ -25,7 +25,8 @@ builder.Services.AddCors(options =>
     });
 });
 
-
+////servicio HttpClient para hacer solicitudes HTTP al servidor de las imagenes
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

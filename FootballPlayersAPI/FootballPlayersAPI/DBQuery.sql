@@ -30,11 +30,11 @@ CREATE TABLE Players
 	ClubLogoUrl nvarchar(50),
 	NationFlagUrl nvarchar(50)
 )
-
+GO
 /*CI: Case Insensitive. AI: Accent Insensitive */
 ALTER TABLE Players ALTER COLUMN LongName NVARCHAR(255) COLLATE SQL_Latin1_General_CP1_CI_AI;
 
-
+GO
 CREATE Procedure InsertPlayer
 	@ShortName nvarchar(25),
 	@LongName nvarchar(50),
@@ -116,6 +116,7 @@ AS
 BEGIN
 	SELECT * FROM Players WHERE LongName LIKE '%' + (@Name) + '%'
 END
+GO
 
 CREATE PROCEDURE FilterByNationality
 	@Nationality nvarchar(50)
@@ -123,7 +124,7 @@ AS
 BEGIN
 	SELECT * FROM Players WHERE NationalityName LIKE (@Nationality) + '%'
 END
-
+GO
 
 CREATE PROCEDURE FilterByClub
 	@Club nvarchar(50)
@@ -131,3 +132,4 @@ AS
 BEGIN
 	SELECT * FROM Players WHERE ClubName LIKE '%' + (@Club) + '%'
 END
+GO

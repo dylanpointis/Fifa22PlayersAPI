@@ -48,7 +48,7 @@ export class DetailCardComponent implements OnChanges {
 
 
   defaultImage(event: any): void {
-    event.target.src = 'https://cdn.sofifa.net/player_0.svg'; //default image in case it doesn't exists
+    event.target.src = 'public/defaultplayer_img.png'; //default image in case it doesn't exists
   }
 
 

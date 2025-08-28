@@ -7,13 +7,14 @@
       <mat-card-content class="card" style="display: flex;" [ngStyle]="{'background-color': color}">
         <div style="width: 50%;">
             <div class="player-image-container">
-            <img [src]="currentPlayer.playerFaceUrl" (error)="defaultImage($event)">
+              <img [src]="'http://localhost:5177/api/images?url=' + currentPlayer.playerFaceUrl">
             </div>
 
             <div class="team-image-container">
-                <img [src]="currentPlayer.nationFlagUrl" style = "width: 50px; height: 100%; margin: 5px;">
-                <img [src]="currentPlayer.clubLogoUrl" style = "width: 50px; height: 100%; margin: 5px;" >
+              <img [src]="'http://localhost:5177/api/Images?url=' + currentPlayer.nationFlagUrl" style="width: 50px; height: 100%; margin: 6px;">
+                <img [src]="'http://localhost:5177/api/Images?url=' + currentPlayer.clubLogoUrl" style="width: 50px; height: 100%; margin: 0px;">
             </div>
+
         </div>
         <div class="player-stats" style= "width: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
           <h1>{{ currentPlayer.overall }}</h1>

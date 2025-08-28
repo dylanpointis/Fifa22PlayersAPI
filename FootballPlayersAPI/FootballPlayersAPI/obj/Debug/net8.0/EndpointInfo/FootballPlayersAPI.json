@@ -5,6 +5,27 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Images": {
+      "get": {
+        "tags": [
+          "Images"
+        ],
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Players": {
       "get": {
         "tags": [

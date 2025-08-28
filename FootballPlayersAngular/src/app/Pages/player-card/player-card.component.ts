@@ -41,7 +41,8 @@ export class PlayerCardComponent {
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
 
 
-  defaultImage(event: any): void {
-    event.target.src = 'https://cdn.sofifa.net/player_0.svg';//default image in case it doesn't exists
+    defaultImage(event: any): void {
+      console.log('Error loading image. Id: ' + this.currentPlayer.playerID);
+    event.target.src = 'public/defaultplayer_img.png'; //default image in case it doesn't exists
   }
 }
